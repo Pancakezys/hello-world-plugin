@@ -1,0 +1,18 @@
+{
+    "name": "pancakezys/hello-world-plugin",
+    "description": "A simple WordPress plugin that outputs 'Hello World'.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Pancakezys\\HelloWorldPlugin\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4",
+      "johnpbloch/wordpress": "^5.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
